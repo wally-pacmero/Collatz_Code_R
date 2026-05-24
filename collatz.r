@@ -5,7 +5,7 @@ collatz = function(n){ # Define una función llamada 'collatz' que toma un núme
         n = n / 2 # Si 'n' es par, divídelo por 2.
     }
     else{ # Si 'n' es impar.
-        n = (n * 3) + 1 # Si 'n' es impar, multiplícalo por 3 y súmale 1.
+        n = (n * 5) + 1 # Si 'n' es impar, multiplícalo por 5 y súmale 1.
     }
     secuencia = c(secuencia, n) # Añade el nuevo valor de 'n' a la 'secuencia'.
   }
